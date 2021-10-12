@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+  datasource:
+    url: jdbc:mysql://localhost:8900/hotelsdb
+    username: root
+    password: password
+init-db-with-test-values: true

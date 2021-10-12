@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: "test"
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+init-db-with-test-values: false
