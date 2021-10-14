@@ -13,7 +13,7 @@ import javax.validation.Valid;
 import java.net.URI;
 
 @RestController
-@RequestMapping(ApiPaths.LOGIN_PATH)
+@RequestMapping(ApiPaths.API_PATH + ApiPaths.LOGIN_PATH)
 public class LoginController {
 
     private final LoginService loginService;

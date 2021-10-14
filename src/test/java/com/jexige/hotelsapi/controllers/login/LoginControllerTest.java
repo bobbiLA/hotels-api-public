@@ -44,7 +44,7 @@ public class LoginControllerTest {
     ////////////////////////////////////////////////////////////////
 
     public static String path() {
-        return ApiPaths.LOGIN_PATH;
+        return ApiPaths.API_PATH + ApiPaths.LOGIN_PATH;
     }
 
     @BeforeEach
